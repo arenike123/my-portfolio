@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(140, 183, 193);
+    color: rgba(255, 255, 255, 0.007);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #aaa;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 85%;
+    margin: 50px auto;
+}
+
+.project {
+    background: #111;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(255,255,255,0.1);
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project p {
+    padding: 10px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.projects-title {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body {
+    background: lightblue;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body {
+    animation: fadeIn 0.8s ease-in;
+}
+.project {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    letter-spacing: 2px;
+    color: lightgray;
+}
+.hero {
+    margin-top: 100px;
+    text-align: center;
+    animation: fadeIn 1s ease;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.7;
+}
+body {
+    background: linear-gradient(to bottom right, #aee2ff, #e0f7ff);
+    color: black;
+}
+.project img {
+    transition: 0.3s;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #1a1a1a, #000000);
+    color: white;
+}
+.hero {
+    text-align: center;
+    margin-top: 120px;
+    animation: fadeIn 1s ease;
+}
+
+.hero h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #aaa;
+    letter-spacing: 1px;
+}
+.profile-pic {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.profile-pic img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+.bio {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.bio h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+.skills {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.skill-list span {
+    background: #111;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.skill-list span:hover {
+    transform: scale(1.1);
+    background: white;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section, .container {
+    padding-bottom: 40px;
+}
